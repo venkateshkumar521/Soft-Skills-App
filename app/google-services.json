@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "617935408996",
+    "firebase_url": "https://softjob-23a2c.firebaseio.com",
+    "project_id": "softjob-23a2c",
+    "storage_bucket": "softjob-23a2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617935408996:android:f6cb7f0da4e62dce",
+        "android_client_info": {
+          "package_name": "softskills.venky.com.softjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617935408996-bah1n5nu2ce683abp0kna9f9ecip82fc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "softskills.venky.com.softjob",
+            "certificate_hash": "aca603f98462d23f94262d9b5cc6ed33321a68d5"
+          }
+        },
+        {
+          "client_id": "617935408996-48eb7pjs5uk642aretv86fcfn9eb89op.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "617935408996-48eb7pjs5uk642aretv86fcfn9eb89op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA-Hjfug3BEi2198v2U0Ce2UyfSohb_GQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617935408996-48eb7pjs5uk642aretv86fcfn9eb89op.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

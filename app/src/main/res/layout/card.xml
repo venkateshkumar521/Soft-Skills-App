@@ -1,0 +1,203 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#212121">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layoutType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    card_view:srcCompat="@drawable/job" />
+
+                <TextView
+                    android:id="@+id/vaddress1"
+                    android:layout_width="257dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Job Title"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutTyp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/layoutType"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true">
+
+                <TextView
+                    android:id="@+id/vaddress01"
+                    android:layout_width="110dp"
+                    android:layout_height="51dp"
+                    android:text="Email-Id:"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+
+
+                <TextView
+                    android:id="@+id/vaddress6"
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoLink="email"
+                    android:gravity="center"
+                    android:text="Email-ID"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/layoutTyp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/vaddress03"
+                    android:layout_width="124dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginRight="3dp"
+                    android:text="Company Name:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+
+                <TextView
+                    android:id="@+id/vaddress3"
+                    android:layout_width="259dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Company Name"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/layout2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/vaddress02"
+                    android:layout_width="114dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/vaddress5"
+                    android:layout_marginRight="3dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Location:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/vaddress2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/vaddress5"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Location:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/layout3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/vaddress04"
+                    android:layout_width="116dp"
+                    android:layout_height="match_parent"
+                    android:text="Contact Info:"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/vaddress5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:text="Contact Info"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:id="@+id/layout5"
+                android:layout_below="@+id/layout4">
+                <TextView
+                    android:id="@+id/vaddress06"
+                    android:layout_width="110dp"
+                    android:layout_height="51dp"
+                    android:text="Description:"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/vaddress4"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Description" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
